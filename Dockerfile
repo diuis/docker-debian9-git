@@ -1,3 +1,3 @@
-FROM diuis/docker-debian9-base
+FROM diuis/docker-debian9-base:v1.0.1
 
-RUN apt-get update && apt-get install -y git
+RUN apt-get update && apt-get install --no-install-recommends -y git
